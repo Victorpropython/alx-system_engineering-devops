@@ -1,3 +1,2 @@
-0 string SCHOOL school data
-file -C -m School.magic school.mgc
-file -m school.mgc dtatfile.txt
+0 string SCHOOL school data file
+!:mime School
