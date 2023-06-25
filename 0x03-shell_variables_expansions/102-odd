@@ -1,2 +1,2 @@
 #!/bin/bash
-paste --|cut fl
+while IFS= read -r line; do echo "$line"; read -r; done < "$1"
