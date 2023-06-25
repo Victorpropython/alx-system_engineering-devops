@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $((water=10#$WATER, stir=10#$STIR, bestchol=water+stir, bestchol))
