@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
-#use to list processes"
+# Use to list processes
+#+ And alsothose without a TTY
 
-top
+ps auxf
