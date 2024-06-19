@@ -1,0 +1,8 @@
+#!/usr/bin/ env bash
+# DIsplay "To infinity and beyond" indefinetly with a second delay between e#+ ach iteration.
+
+while true;do
+	echo "To Infinity and beyond"
+	sleep 2
+
+done
