@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
-# To configure the IP aaddress
-#    localhost     127.0.0.2
-#    facebook      8.8.8.8
+# Configures an Ubuntu server as follows:
+#   - localhost resolves to 127.0.0.2
+#   - facebook.com resolves to 8.8.8.8
 
-cp /etc/hosts ~/hosts.bak
-echo "127.0.0.2                localhost" > ~/hosts.bak
-echo "8.8.8.8                  facebook.com" >> ~/hosts.bak
-
-cp -f ~/hosts.bak /etc/hosts
+cp /etc/hosts ~/hosts.n
+echo "127.0.0.2		localhost" > ~/hosts.n
+echo "8.8.8.8		facebook.com" >> ~/hosts.n
+cp -f ~/hosts.n /etc/hosts
