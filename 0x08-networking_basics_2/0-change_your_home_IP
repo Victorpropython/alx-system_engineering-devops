@@ -1,6 +1,8 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 
 # To configure the IP aaddress
+#    localhost     127.0.0.2
+#    facebook      8.8.8.8
 
 cp /etc/hosts ~/hosts.bak
 echo "127.0.0.2                localhost" > ~/hosts.bak

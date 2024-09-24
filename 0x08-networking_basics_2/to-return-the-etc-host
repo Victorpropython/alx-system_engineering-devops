@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# To return the etc/host to normal
+
+echo "127.0.0.1        localhost" > ~/hosts.new
+echo "0.0.0.0          facebook" >> ~/hosts.new
+cp -f ~/hosts.new /etc/hosts
